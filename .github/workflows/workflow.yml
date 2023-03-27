@@ -1,9 +1,9 @@
-name: Digger Image
+name: DockerHub Image
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-push:
